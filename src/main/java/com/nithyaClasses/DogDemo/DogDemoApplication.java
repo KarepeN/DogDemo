@@ -1,0 +1,17 @@
+package com.nithyaClasses.DogDemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class DogDemoApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext appContext = SpringApplication.run(DogDemoApplication.class, args);
+		System.out.println("Hello, Spring Boot");
+		System.out.println("This is Nithya");
+		
+	}
+
+}
